@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  align-content: center;
+  top: 0;
+  opacity: 0.8;
+}
+
+.navLinks {
+  font-size: 1rem;
+  outline: none !important;
+  transition: 0.5 all;
+  color: black;
+  padding-left: 3rem;
+}
+
+.logo-name {
+  display: flex;
+  align-items: right;
+}
+
+.img-logo {
+  height: 1.5em;
+  padding-right: 5%;
+}
+
+// .nav-link {
+//   font-size: 1em;
+//   outline: none !important;
+//   transition: 0.5 all;
+//   color: #aaa;
+// }
+
+.nav-link:hover {
+  color: seashell;
+}
+
+@media (min-width: 600px) {
+  .navLinks {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}

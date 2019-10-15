@@ -44,7 +44,7 @@ class Footer extends React.Component {
           </li>
         </ul>
         <ul className="copyright">
-          <li>&copy; Alan Tang</li>
+          <li>&copy; Background images taken by Alan Tang</li>
         </ul>
       </section>
     );

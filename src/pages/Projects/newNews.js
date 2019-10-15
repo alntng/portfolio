@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function newNews() {
   return (
@@ -32,7 +32,7 @@ export default function newNews() {
           <li>Express</li>
           <li>PostGres</li>
           <li>Puppeteer</li>
-          <li>Cheereio</li>
+          <li>Cheerio</li>
         </ul>
         <header className="major"></header>
         <section id="deployment">
@@ -53,5 +53,5 @@ export default function newNews() {
         </section>
       </div>
     </div>
-  )
+  );
 }

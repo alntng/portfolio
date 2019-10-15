@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/files/resume.pdf";
+import resume from "../assets/files/resume.pdf";
 
 class Footer extends React.Component {
   render() {
@@ -9,6 +9,7 @@ class Footer extends React.Component {
           <li>
             <a
               href="mailto:atang8013@gmail.com?subject=Hey Alan!"
+              target="_blank"
               className="icon alt fa-envelope"
             >
               <span className="label">Email</span>
@@ -33,7 +34,11 @@ class Footer extends React.Component {
             </a>
           </li>
           <li>
-            <a href="./resume.pdf" className="icon alt fa-file-text-o">
+            <a
+              href={resume}
+              target="_blank"
+              className="icon alt fa-file-text-o"
+            >
               <span className="label">Resume</span>
             </a>
           </li>

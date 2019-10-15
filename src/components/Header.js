@@ -1,5 +1,5 @@
-import React from 'react'
-import headerStyles from '../assets/scss/header.module.scss'
+import React from "react";
+import headerStyles from "../assets/scss/header.module.scss";
 
 class Header extends React.Component {
   render() {
@@ -33,16 +33,17 @@ class Header extends React.Component {
             <li>
               <a
                 href="mailto:atang8013@gmail.com?subject=Hey Alan!"
+                target="_blank"
                 className="button scrolly"
               >
-                Hit Me Up
+                Contact
               </a>
             </li>
           </ul>
         </div>
       </section>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;

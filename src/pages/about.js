@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic01 from "../assets/images/pic01.jpg";
+import pic02 from "../assets/images/pic02.jpg";
+import pic03 from "../assets/images/pic03.jpg";
+import pic04 from "../assets/images/pic04.jpg";
 
 export default function about() {
   return (
@@ -21,15 +21,16 @@ export default function about() {
             found that many responsibilities could have been automated with the
             proper software. If the simpler tasks could have been streamlined,
             resources could have been re-allocated to other departments of the
-            bank. Outside those roles, there are many daily tasks in regular
-            life that seem monotonous, however with technology has been made
-            easier. The less cognitive space people occupy for small tasks, the
-            more attention they can give to what they truly want to do. My goal
-            as a programmer is to make people’s lives simpler.
+            bank. Outside of those roles, there are many daily tasks in the
+            normal work environment that seem monotonous, however with
+            technology, that can be made easier. The less cognitive space people
+            occupy for minor tasks, the more attention they can give to what
+            they truly need to do. My goal as a programmer is to make peoples’
+            lives simpler.
           </p>
           <p>
             When I'm not debugging, you can most likely find me training for my
-            next race. Slowly working my way to completing an IronMan (very
+            next race, slowly working my way to completing an Iron Man (very
             slowly).
           </p>
           <h4 align="center">Front End</h4>
@@ -58,5 +59,5 @@ export default function about() {
         </div>
       </div>
     </section>
-  )
+  );
 }

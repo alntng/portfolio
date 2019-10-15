@@ -1,5 +1,5 @@
-import React from 'react'
-import '../assets/files/resume.pdf'
+import React from "react";
+import "../assets/files/resume.pdf";
 
 class Footer extends React.Component {
   render() {
@@ -33,11 +33,7 @@ class Footer extends React.Component {
             </a>
           </li>
           <li>
-            <a
-              href="src/assets/files/resume.pdf"
-              download
-              className="icon alt fa-file-text-o"
-            >
+            <a href="./resume.pdf" className="icon alt fa-file-text-o">
               <span className="label">Resume</span>
             </a>
           </li>
@@ -46,8 +42,8 @@ class Footer extends React.Component {
           <li>&copy; Alan Tang</li>
         </ul>
       </section>
-    )
+    );
   }
 }
 
-export default Footer
+export default Footer;

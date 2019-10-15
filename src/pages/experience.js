@@ -1,5 +1,5 @@
-import React from 'react'
-import Collapsible from 'react-collapsible'
+import React from "react";
+import Collapsible from "react-collapsible";
 
 export default function experience() {
   return (
@@ -13,6 +13,39 @@ export default function experience() {
       </div>
       <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
         <ul className="timeline timeline-centered">
+          <li className="timeline-item">
+            <div className="timeline-info">
+              <span>June 2019 - September 2019</span>
+            </div>
+
+            <div className="timeline-marker"></div>
+            <div className="timeline-content">
+              <Collapsible
+                trigger={
+                  <div>
+                    <h3>FullStack Academy</h3>
+                    <h5>Software Engineer Immersive</h5>
+                  </div>
+                }
+              >
+                <ul>
+                  <li>
+                    A full-time four month long software engineering immersive
+                    program with a {"<"} 10% acceptance rate
+                  </li>
+                  <br />
+                  <li>
+                    Lectures, workshops, assessments, and projects covered:
+                    computer science fundamentals, back-end development,
+                    front-end development, databases, pair programming, and
+                    programming best practices with a focus on the NERD (Node,
+                    Express, React, PostgreSQL as Database) technology stack
+                  </li>
+                </ul>
+              </Collapsible>
+            </div>
+          </li>
+
           <li className="timeline-item">
             <div className="timeline-info">
               <span>May 2017 - May 2019</span>
@@ -164,8 +197,37 @@ export default function experience() {
               </Collapsible>
             </div>
           </li>
+          <li className="timeline-item">
+            <div className="timeline-info">
+              <span>September 2011 - Present</span>
+            </div>
+
+            <div className="timeline-marker"></div>
+            <div className="timeline-content">
+              <Collapsible
+                trigger={
+                  <div>
+                    <h3>Boy Scouts of America (Troop 150)</h3>
+                    <h5>Assistant Scoutmaster</h5>
+                  </div>
+                }
+              >
+                <ul>
+                  <li>
+                    Assist patrols of 10 scouts to complete requirements to
+                    fulfill scout ranks’ advancement requirements
+                  </li>
+                  <br />
+                  <li>
+                    Advise Eagle Scout candidates to attain the rank of Eagle
+                    Scout
+                  </li>
+                </ul>
+              </Collapsible>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
-  )
+  );
 }

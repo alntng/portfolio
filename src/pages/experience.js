@@ -22,9 +22,9 @@ export default function experience() {
             <div className="timeline-content">
               <Collapsible
                 trigger={
-                  <div>
-                    <h3>FullStack Academy</h3>
-                    <h5>Software Engineering Immersive</h5>
+                  <div className="experience">
+                    <h3 className="position">FullStack Academy</h3>
+                    <h5 className="position">Software Engineering Immersive</h5>
                   </div>
                 }
               >
@@ -55,9 +55,9 @@ export default function experience() {
             <div className="timeline-content">
               <Collapsible
                 trigger={
-                  <div>
-                    <h3>Brown Brothers Harriman</h3>
-                    <h5>Foreign Exchange Trade Support</h5>
+                  <div className="experience">
+                    <h3 className="position">Brown Brothers Harriman</h3>
+                    <h5 className="position">Foreign Exchange Trade Support</h5>
                   </div>
                 }
               >
@@ -108,9 +108,9 @@ export default function experience() {
             <div className="timeline-content">
               <Collapsible
                 trigger={
-                  <div>
-                    <h3>State Street</h3>
-                    <h5>NAV Associate</h5>
+                  <div className="experience">
+                    <h3 className="position">State Street</h3>
+                    <h5 className="position">NAV Associate</h5>
                   </div>
                 }
               >
@@ -162,9 +162,9 @@ export default function experience() {
             <div className="timeline-content">
               <Collapsible
                 trigger={
-                  <div>
-                    <h3>Tourneau</h3>
-                    <h5>Store Accounting</h5>
+                  <div className="experience">
+                    <h3 className="position">Tourneau</h3>
+                    <h5 className="position">Store Accounting</h5>
                   </div>
                 }
               >
@@ -206,9 +206,11 @@ export default function experience() {
             <div className="timeline-content">
               <Collapsible
                 trigger={
-                  <div>
-                    <h3>Boy Scouts of America (Troop 150)</h3>
-                    <h5>Assistant Scoutmaster</h5>
+                  <div className="experience">
+                    <h3 className="position">
+                      Boy Scouts of America (Troop 150)
+                    </h3>
+                    <h5 className="position">Assistant Scoutmaster</h5>
                   </div>
                 }
               >

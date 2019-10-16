@@ -24,7 +24,7 @@ export default function experience() {
                 trigger={
                   <div>
                     <h3>FullStack Academy</h3>
-                    <h5>Software Engineer Immersive</h5>
+                    <h5>Software Engineering Immersive</h5>
                   </div>
                 }
               >

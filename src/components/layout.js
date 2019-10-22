@@ -1,33 +1,33 @@
-import React from 'react'
-import '../assets/scss/main.scss'
+import React from "react";
+import "../assets/scss/main.scss";
 
-import Header from './Header'
-import Footer from './Footer'
+import Header from "./Header";
+import Footer from "./Footer";
 
-import Navbar from './Navbar'
+import Navbar from "./Navbar";
 
 class Template extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      loading: 'is-loading',
-    }
+      loading: "is-loading"
+    };
   }
 
   componentDidMount() {
     this.timeoutId = setTimeout(() => {
-      this.setState({ loading: '' })
-    }, 100)
+      this.setState({ loading: "" });
+    }, 100);
   }
 
   componentWillUnmount() {
     if (this.timeoutId) {
-      clearTimeout(this.timeoutId)
+      clearTimeout(this.timeoutId);
     }
   }
 
   render() {
-    const { children } = this.props
+    const { children } = this.props;
 
     return (
       <div className={`body ${this.state.loading}`}>
@@ -35,8 +35,8 @@ class Template extends React.Component {
         {children}
         <Footer />
       </div>
-    )
+    );
   }
 }
 
-export default Template
+export default Template;

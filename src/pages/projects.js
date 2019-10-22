@@ -1,6 +1,9 @@
 import React from "react";
 import NewNews from "./Projects/newNews";
-import Carousel from "react-bootstrap/Carousel";
+import Nudge from "./Projects/nudge";
+
+import Carousel from "./Projects/carousel";
+import { Item } from "./Projects/carouselComponents";
 
 export default function projects() {
   return (
@@ -12,7 +15,13 @@ export default function projects() {
       </a>
       <h1 align="center">Projects</h1>
 
-      <NewNews />
+      <Carousel title="Carousel">
+        <Item img="https://unsplash.it/475/205" />
+        <Item img="https://unsplash.it/476/205" />
+        <Item img="https://unsplash.it/477/205" />
+        <Item img="https://unsplash.it/478/205" />
+        <Item img="https://unsplash.it/479/205" />
+      </Carousel>
     </section>
   );
 }

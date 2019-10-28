@@ -15,8 +15,8 @@ export const CarouselContainer = styled.div`
 
   transition: ${props => (props.sliding ? "none" : "transform 1s ease")};
   transform: ${props => {
-    if (!props.sliding) return "translateX(calc(-75% - 6rem))";
-    if (props.dir === PREV) return "translateX(calc(2 * (-70% - 6em)))";
+    if (!props.sliding) return "translateX(calc(-73% - 7em))";
+    if (props.dir === PREV) return "translateX(calc(2 * (-70% - 7em)))";
     return "translateX(0%)";
   }};
 `;
@@ -27,8 +27,8 @@ export const Wrapper = styled.div`
 `;
 
 export const CarouselSlot = styled.div`
-  flex: 1 0 90%;
-  flex-basis: min-content;
+  flex: 1 0 85%;
+  flex-basis: max-content;
   margin-right: 2em;
 
   order: ${props => props.order};
@@ -36,16 +36,19 @@ export const CarouselSlot = styled.div`
 
 export const SlideButton = styled.button`
     color: #ffffff;
-    font-family: Open Sans;
+    font-family: sans-serif;
     font-size: 16px;
     font-weight: 100;
     padding: 10px;
-    background-color: #f66f3e;
+    background-color: #88d0fc;
     border: 1px solid white;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
   margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-decoration: none;
   float: ${props => props.float};
 

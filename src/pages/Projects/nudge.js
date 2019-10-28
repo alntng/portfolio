@@ -4,13 +4,23 @@ export default function nudge() {
   return (
     <div align="center" className="grid-wrapper">
       <div className="col-6">
-        <h1>Screen shot goes here</h1>
+        <section className="image-container">
+          <img src="https://i.imgur.com/VUfO2Gt.png" />
+        </section>
       </div>
 
       <div id="two" className="col-6">
         <h2>Nudge</h2>
         <header className="major"></header>
-        <p>Mobile app made for friends to keep each other accountable.</p>
+        <p>
+          Mobile app made for friends to keep each other accountable.
+          <br />
+          <br />
+          Users join a user group and sets a goal for everyone in the group to
+          see. Each goal is assigned a time limit and location. Goals cannot be
+          marked completed unless the device is at the promised location for the
+          specified amount of time.
+        </p>
         <br />
         <h4>the stack :</h4>
         <ul id="stack">
@@ -20,19 +30,8 @@ export default function nudge() {
         </ul>
         <header className="major"></header>
         <section id="deployment">
-          <a
-            href="https://github.com/1906-cs-ness-ninjas/new-news"
-            target="_blank"
-            id="deploy"
-          >
+          <a href="https://github.com/alntng/Nudge" target="_blank" id="deploy">
             <button id="deployment">Github</button>
-          </a>
-          <a
-            href="https://newnews-1906.herokuapp.com"
-            target="_blank"
-            id="deploy"
-          >
-            <button id="deployment">Heroku</button>
           </a>
         </section>
       </div>

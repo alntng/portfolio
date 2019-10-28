@@ -31,6 +31,12 @@ const Carousel = props => {
   });
   return (
     <div {...handlers}>
+      <SlideButton onClick={() => slide(PREV)} float="left">
+        Prev
+      </SlideButton>
+      <SlideButton onClick={() => slide(NEXT)} float="right">
+        Next
+      </SlideButton>
       <Wrapper>
         <CarouselContainer dir={state.dir} sliding={state.sliding}>
           {React.Children.map(props.children, (child, index) => (
@@ -43,12 +49,6 @@ const Carousel = props => {
           ))}
         </CarouselContainer>
       </Wrapper>
-      <SlideButton onClick={() => slide(PREV)} float="left">
-        Prev
-      </SlideButton>
-      <SlideButton onClick={() => slide(NEXT)} float="right">
-        Next
-      </SlideButton>
     </div>
   );
 };

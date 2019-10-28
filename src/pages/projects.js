@@ -18,11 +18,6 @@ export default function projects() {
       <Carousel title="Carousel">
         <NewNews />
         <Nudge />
-        {/* <Item img="https://unsplash.it/475/205" />
-        <Item img="https://unsplash.it/476/205" />
-        <Item img="https://unsplash.it/477/205" />
-        <Item img="https://unsplash.it/478/205" />
-        <Item img="https://unsplash.it/479/205" /> */}
       </Carousel>
     </section>
   );

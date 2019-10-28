@@ -1,6 +1,7 @@
 import React from "react";
 import NewNews from "./Projects/newNews";
 import Nudge from "./Projects/nudge";
+import GraceMonsters from "./Projects/graceMonsters";
 
 import Carousel from "./Projects/carousel";
 import { Item } from "../components/carouselComponents";
@@ -18,6 +19,7 @@ export default function projects() {
       <Carousel title="Carousel">
         <NewNews />
         <Nudge />
+        <GraceMonsters />
       </Carousel>
     </section>
   );

@@ -7,7 +7,7 @@ import {
   SlideButton,
   PREV,
   NEXT
-} from "./carouselComponents";
+} from "../../components/carouselComponents";
 
 const getOrder = ({ index, pos, numItems }) => {
   return index - pos < 0 ? numItems - Math.abs(index - pos) : index - pos;

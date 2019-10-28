@@ -3,7 +3,7 @@ import NewNews from "./Projects/newNews";
 import Nudge from "./Projects/nudge";
 
 import Carousel from "./Projects/carousel";
-import { Item } from "./Projects/carouselComponents";
+import { Item } from "../components/carouselComponents";
 
 export default function projects() {
   return (

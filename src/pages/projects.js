@@ -15,7 +15,6 @@ export default function projects() {
         </div>
       </a>
       <h1 align="center">Projects</h1>
-
       <Carousel title="Carousel">
         <NewNews />
         <Nudge />

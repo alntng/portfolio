@@ -16,7 +16,7 @@ export const CarouselContainer = styled.div`
   transition: ${props => (props.sliding ? "none" : "transform 1s ease")};
   transform: ${props => {
     if (!props.sliding) return "translateX(calc(-75% - 6em))";
-    if (props.dir === PREV) return "translateX(calc(2 * (-73% - 7em)))";
+    if (props.dir === PREV) return "translateX(calc(2 * (-75% - 7em)))";
     return "translateX(1px)";
   }};
 `;
@@ -28,7 +28,7 @@ export const Wrapper = styled.div`
 
 export const CarouselSlot = styled.div`
   flex: 1 0 85%;
-  flex-basis: max-content;
+  flex-basis: fit-content;
   word-wrap: normal;
   padding-right: 1em;
 

@@ -15,8 +15,8 @@ export const CarouselContainer = styled.div`
 
   transition: ${props => (props.sliding ? "none" : "transform 1s ease")};
   transform: ${props => {
-    if (!props.sliding) return "translateX(calc(-75% - 6rem))";
-    if (props.dir === PREV) return "translateX(calc(2 * (-75% - 7em)))";
+    if (!props.sliding) return "translateX(calc(-100% ))";
+    if (props.dir === PREV) return "translateX(calc(-100%))";
     return "translateX(1px)";
   }};
 `;
@@ -27,7 +27,7 @@ export const Wrapper = styled.div`
 `;
 
 export const CarouselSlot = styled.div`
-  flex: 1 0 90%;
+  flex: 1 0 100%;
   flex-basis: max-content;
   word-wrap: normal;
 
@@ -64,7 +64,7 @@ export const SlideButton = styled.button`
 export const AppContainer = styled.div`
   font-family: sans-serif;
   text-align: center;
-  width: 75%;
+  width: 100%;
 `;
 
 export const ExtraInfo = styled.div`

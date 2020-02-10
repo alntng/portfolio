@@ -38,6 +38,7 @@ export const SlideButton = styled.button`
     color: #ffffff;
     font-family: sans-serif;
     font-size: 16px;
+  line-height: 17px;
     font-weight: 100;
     padding: 10px;
     background-color: #88d0fc;

@@ -2,6 +2,7 @@ import React from "react";
 import NewNews from "./Projects/newNews";
 import Nudge from "./Projects/nudge";
 import GraceMonsters from "./Projects/graceMonsters";
+import SceneIt from "./Projects/sceneit";
 
 import Carousel from "./Projects/carousel";
 import { Item } from "../components/carouselComponents";
@@ -19,6 +20,7 @@ export default function projects() {
         <NewNews />
         <Nudge />
         <GraceMonsters />
+        <SceneIt />
       </Carousel>
     </section>
   );

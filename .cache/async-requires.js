@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-projects-carousel-js": () => import("/Users/Alan/Documents/portfolio-site/src/pages/Projects/carousel.js" /* webpackChunkName: "component---src-pages-projects-carousel-js" */),
   "component---src-pages-projects-grace-monsters-js": () => import("/Users/Alan/Documents/portfolio-site/src/pages/Projects/graceMonsters.js" /* webpackChunkName: "component---src-pages-projects-grace-monsters-js" */),
   "component---src-pages-projects-new-news-js": () => import("/Users/Alan/Documents/portfolio-site/src/pages/Projects/newNews.js" /* webpackChunkName: "component---src-pages-projects-new-news-js" */),
-  "component---src-pages-projects-nudge-js": () => import("/Users/Alan/Documents/portfolio-site/src/pages/Projects/nudge.js" /* webpackChunkName: "component---src-pages-projects-nudge-js" */)
+  "component---src-pages-projects-nudge-js": () => import("/Users/Alan/Documents/portfolio-site/src/pages/Projects/nudge.js" /* webpackChunkName: "component---src-pages-projects-nudge-js" */),
+  "component---src-pages-projects-sceneit-js": () => import("/Users/Alan/Documents/portfolio-site/src/pages/Projects/sceneit.js" /* webpackChunkName: "component---src-pages-projects-sceneit-js" */)
 }
 

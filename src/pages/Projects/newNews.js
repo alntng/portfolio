@@ -20,8 +20,11 @@ export default function newNews() {
         <h2>New News</h2>
         <header className="major"></header>
         <p>
-          Web app and chrome extension news aggregator consolidating a user's
-          favorite news articles based on topics and news sites of choice.
+          Web application that scrapes various news sites and categorizes them
+          in a PostGreSQL database. Under each article is a list of recommended
+          articles based on similar categories. We also built an
+          "anti"-recommendation article to give readers a different perspective
+          on the topic they are reading.
         </p>
         <br />
         <h4>the stack :</h4>

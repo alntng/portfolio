@@ -13,11 +13,11 @@ export default function nudge() {
         <h2>Nudge</h2>
         <header className="major"></header>
         <p>
-          Mobile app made for friends to keep each other accountable.
+          Independently built mobile app for friends to keep each other
+          accountable.
           <br />
-          <br />
-          Users join a user group and sets a goal for everyone in the group to
-          see. Each goal is assigned a time limit and location. Goals cannot be
+          Users join a group and sets a goal for everyone in the group to see.
+          Each goal is assigned a time limit and location. Goals cannot be
           marked completed unless the device is at the promised location for the
           specified amount of time.
         </p>

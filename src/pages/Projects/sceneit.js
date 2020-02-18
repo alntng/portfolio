@@ -5,7 +5,7 @@ export default function graceMonsters() {
     <div align="center" className="grid-wrapper">
       <div className="col-6">
         <section className="image-container">
-          <img src="https://i.imgur.com/ccwZ48H.png" />
+          <img src="https://i.imgur.com/aPdNgNa.jpg" />
         </section>
       </div>
 

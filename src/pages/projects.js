@@ -10,11 +10,9 @@ import { Item } from "../components/carouselComponents";
 export default function projects() {
   return (
     <section id="two" className="main style2">
-      <a href="#" className="icon alt fa-angle-double-up">
-        <div align="center" className="label">
-          Home
-        </div>
-      </a>
+      <div style={{ "text-align": "center" }} className="label">
+        <a href="#" className="icon alt fa-angle-double-up"></a>
+      </div>
       <h1 align="center">Projects</h1>
       <Carousel title="Carousel">
         <NewNews />

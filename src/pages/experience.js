@@ -13,6 +13,44 @@ export default function experience() {
       </div>
       <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
         <ul className="timeline timeline-centered">
+          {/*Budget Better */}
+          <li className="timeline-item">
+            <div className="timeline-info">
+              <span>July 2020 - Present</span>
+            </div>
+
+            <div className="timeline-marker"></div>
+            <div className="timeline-content">
+              <Collapsible
+                trigger={
+                  <div className="experience">
+                    <h3 className="position">Budget Better</h3>
+                    <h5 className="position">Part-Time Software Developer</h5>
+                  </div>
+                }
+              >
+                <ul>
+                  <li>
+                    Developed algorithm to analyze a users’ spending data over a
+                    12-month period collected from the Plaid API
+                  </li>
+                  <br />
+                  <li>
+                    Designed and built responsive pages for desktop client with
+                    reusable React components
+                  </li>
+                  <br />
+                  <li>
+                    Built dashboard to visualize a user’s past spending and
+                    their recommended future spending to reach their financial
+                    goals
+                  </li>
+                </ul>
+              </Collapsible>
+            </div>
+          </li>
+
+          {/* FullStack */}
           <li className="timeline-item">
             <div className="timeline-info">
               <span>June 2019 - September 2019</span>

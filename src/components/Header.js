@@ -9,7 +9,7 @@ class Header extends React.Component {
           <span className="icon major fa-coffee"></span>
           <h1>
             Hi, I'm <strong>Alan</strong>,
-            <br /> a Software Engineer from
+            <br /> a Software Engineer from {"\n"}
             <br />
             Queens, New York.
           </h1>

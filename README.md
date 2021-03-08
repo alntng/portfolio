@@ -5,7 +5,6 @@ Personal website built using Gatsby, React, HTML, and CSS
 ## To add Next
 
 - Photo Gallery
-- Blog
 
 ## Author
 

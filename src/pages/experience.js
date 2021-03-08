@@ -25,26 +25,23 @@ export default function experience() {
                 trigger={
                   <div className="experience">
                     <h3 className="position">Budget Better</h3>
-                    <h5 className="position">Part-Time Software Developer</h5>
+                    <h5 className="position">Full Stack Developer</h5>
                   </div>
                 }
               >
                 <ul>
                   <li>
-                    Developed algorithm to analyze a users’ spending data over a
-                    12-month period collected from the Plaid API
+                    Assist end-to-end development of web application using
+                    Google Firebase, Express, React, and Redux to build back-end
+                    business logic, and responsive front-end architecture
                   </li>
                   <br />
                   <li>
-                    Designed and built responsive pages for desktop client with
-                    reusable React components
+                    Deployed beta version of web app to group of 20 users
+                    continuously gathering feedback / issues
                   </li>
                   <br />
-                  <li>
-                    Built dashboard to visualize a user’s past spending and
-                    their recommended future spending to reach their financial
-                    goals
-                  </li>
+                  <li>Fix critical bugs as reported by beta testing group</li>
                 </ul>
               </Collapsible>
             </div>

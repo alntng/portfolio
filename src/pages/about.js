@@ -44,12 +44,12 @@ export default function about() {
           </ul>
           <h4 align="center">Back End</h4>
           <ul id="skills">
+            <li>Python</li>
             <li>NodeJS</li>
             <li>Express</li>
             <li>PostGreSQL</li>
             <li>Sequelize</li>
             <li>FireBase</li>
-            <li>GraphQL</li>
           </ul>
         </div>
         <div align="center" className="col-6">
